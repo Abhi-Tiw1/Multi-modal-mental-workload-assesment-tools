@@ -46,7 +46,6 @@ The dataset is now publicaly avalible with a dataset paper:
 
 ## Note on EEG processing
 I have not included the EEG processing pipeline codes as I used a colleagues pipeline. The general EEG features extraction and analysis pipeline was:
-**Pre-processing**
 - wavelet ICA was used to clean the data
 - This was followed by band decomposition in the standard δ, θ, α, β, and γ1 bands.
 - Band powers from the various bands was used as a features
